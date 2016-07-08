@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38145C359AEFB49510455C8B /* Pods_RxSignUpForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A36A82AAFAFBAF6D090484 /* Pods_RxSignUpForm.framework */; };
+		52452DC01D04C3660017F6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52452DBF1D04C3660017F6B3 /* AppDelegate.swift */; };
+		52452DC51D04C3660017F6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52452DC31D04C3660017F6B3 /* Main.storyboard */; };
+		52452DC71D04C3660017F6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52452DC61D04C3660017F6B3 /* Assets.xcassets */; };
+		52452DCA1D04C3660017F6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52452DC81D04C3660017F6B3 /* LaunchScreen.storyboard */; };
+		52D5337B1D05015200B2C2B7 /* ViewController_Imperative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D533791D05015200B2C2B7 /* ViewController_Imperative.swift */; };
+		52D5337C1D05015200B2C2B7 /* ViewController_Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5337A1D05015200B2C2B7 /* ViewController_Reactive.swift */; };
+		52D5337E1D05018100B2C2B7 /* ViewController_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5337D1D05018100B2C2B7 /* ViewController_Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FC2A5F50C94A776512EC0E4 /* Pods-RxSignUpForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSignUpForm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSignUpForm/Pods-RxSignUpForm.debug.xcconfig"; sourceTree = "<group>"; };
+		43A36A82AAFAFBAF6D090484 /* Pods_RxSignUpForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSignUpForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451EAE6F8E033ABEB405E479 /* Pods-RxSignUpForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSignUpForm.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSignUpForm/Pods-RxSignUpForm.release.xcconfig"; sourceTree = "<group>"; };
+		52452DBC1D04C3660017F6B3 /* RxSignUpForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSignUpForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52452DBF1D04C3660017F6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52452DC41D04C3660017F6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52452DC61D04C3660017F6B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52452DC91D04C3660017F6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52452DCB1D04C3660017F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D533791D05015200B2C2B7 /* ViewController_Imperative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Imperative.swift; sourceTree = "<group>"; };
+		52D5337A1D05015200B2C2B7 /* ViewController_Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Reactive.swift; sourceTree = "<group>"; };
+		52D5337D1D05018100B2C2B7 /* ViewController_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52452DB91D04C3660017F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38145C359AEFB49510455C8B /* Pods_RxSignUpForm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11676BB077C27DDF661BA7D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A36A82AAFAFBAF6D090484 /* Pods_RxSignUpForm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		238C6CF65FC8618F76FAC726 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FC2A5F50C94A776512EC0E4 /* Pods-RxSignUpForm.debug.xcconfig */,
+				451EAE6F8E033ABEB405E479 /* Pods-RxSignUpForm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52452DB31D04C3660017F6B3 = {
+			isa = PBXGroup;
+			children = (
+				52452DBE1D04C3660017F6B3 /* RxSignUpForm */,
+				52452DBD1D04C3660017F6B3 /* Products */,
+				238C6CF65FC8618F76FAC726 /* Pods */,
+				11676BB077C27DDF661BA7D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52452DBD1D04C3660017F6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52452DBC1D04C3660017F6B3 /* RxSignUpForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52452DBE1D04C3660017F6B3 /* RxSignUpForm */ = {
+			isa = PBXGroup;
+			children = (
+				52452DBF1D04C3660017F6B3 /* AppDelegate.swift */,
+				52D533791D05015200B2C2B7 /* ViewController_Imperative.swift */,
+				52D5337A1D05015200B2C2B7 /* ViewController_Reactive.swift */,
+				52D5337D1D05018100B2C2B7 /* ViewController_Extensions.swift */,
+				52452DC31D04C3660017F6B3 /* Main.storyboard */,
+				52452DC61D04C3660017F6B3 /* Assets.xcassets */,
+				52452DC81D04C3660017F6B3 /* LaunchScreen.storyboard */,
+				52452DCB1D04C3660017F6B3 /* Info.plist */,
+			);
+			path = RxSignUpForm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52452DBB1D04C3660017F6B3 /* RxSignUpForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52452DCE1D04C3660017F6B3 /* Build configuration list for PBXNativeTarget "RxSignUpForm" */;
+			buildPhases = (
+				6638D0C73992742BA97CD664 /* Check Pods Manifest.lock */,
+				52452DB81D04C3660017F6B3 /* Sources */,
+				52452DB91D04C3660017F6B3 /* Frameworks */,
+				52452DBA1D04C3660017F6B3 /* Resources */,
+				796D249B28E9FCEFC8F62D5C /* Embed Pods Frameworks */,
+				9759AAF897AA5BAEFADE356B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSignUpForm;
+			productName = RxSignUpForm;
+			productReference = 52452DBC1D04C3660017F6B3 /* RxSignUpForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52452DB41D04C3660017F6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JoshAvant;
+				TargetAttributes = {
+					52452DBB1D04C3660017F6B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 52452DB71D04C3660017F6B3 /* Build configuration list for PBXProject "RxSignUpForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52452DB31D04C3660017F6B3;
+			productRefGroup = 52452DBD1D04C3660017F6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52452DBB1D04C3660017F6B3 /* RxSignUpForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52452DBA1D04C3660017F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52452DCA1D04C3660017F6B3 /* LaunchScreen.storyboard in Resources */,
+				52452DC71D04C3660017F6B3 /* Assets.xcassets in Resources */,
+				52452DC51D04C3660017F6B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6638D0C73992742BA97CD664 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		796D249B28E9FCEFC8F62D5C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSignUpForm/Pods-RxSignUpForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9759AAF897AA5BAEFADE356B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSignUpForm/Pods-RxSignUpForm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52452DB81D04C3660017F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D5337B1D05015200B2C2B7 /* ViewController_Imperative.swift in Sources */,
+				52D5337E1D05018100B2C2B7 /* ViewController_Extensions.swift in Sources */,
+				52D5337C1D05015200B2C2B7 /* ViewController_Reactive.swift in Sources */,
+				52452DC01D04C3660017F6B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52452DC31D04C3660017F6B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52452DC41D04C3660017F6B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52452DC81D04C3660017F6B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52452DC91D04C3660017F6B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52452DCC1D04C3660017F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52452DCD1D04C3660017F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52452DCF1D04C3660017F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC2A5F50C94A776512EC0E4 /* Pods-RxSignUpForm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RxSignUpForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshavant.RxSignUpForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52452DD01D04C3660017F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451EAE6F8E033ABEB405E479 /* Pods-RxSignUpForm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RxSignUpForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshavant.RxSignUpForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52452DB71D04C3660017F6B3 /* Build configuration list for PBXProject "RxSignUpForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52452DCC1D04C3660017F6B3 /* Debug */,
+				52452DCD1D04C3660017F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52452DCE1D04C3660017F6B3 /* Build configuration list for PBXNativeTarget "RxSignUpForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52452DCF1D04C3660017F6B3 /* Debug */,
+				52452DD01D04C3660017F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52452DB41D04C3660017F6B3 /* Project object */;
+}
